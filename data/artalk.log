@@ -1,0 +1,3 @@
+[2023-11-26.00:17:31.790638] ERROR failed to initialize database, got error failed to connect to `host=ep-calm-violet-00517298.ap-southeast-1.aws.neon.tech user=LLLLLUOTJ database=artalk`: tls error (EOF)
+[2023-11-26.00:23:49.185638] ERROR failed to initialize database, got error failed to connect to `host=ep-calm-violet-00517298.ap-southeast-1.aws.neon.tech user=LLLLLUOTJ database=artalk`: tls error (EOF)
+[2023-11-26.00:27:13.385203] ERROR failed to initialize database, got error failed to connect to `host=ep-calm-violet-00517298.ap-southeast-1.aws.neon.tech user=LLLLLUOTJ database=artalk`: tls error (EOF)
