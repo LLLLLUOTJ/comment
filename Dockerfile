@@ -5,4 +5,4 @@ ADD https://github.com/lionsoul2014/ip2region/raw/master/data/ip2region.xdb /dat
 COPY conf.yml /conf.yml
 
 COPY upgit /usr/local/bin/upgit
-COPY config.toml /usr/local/bin/upgit
+COPY config.toml /usr/local/bin/config.toml
