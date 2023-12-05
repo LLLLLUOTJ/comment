@@ -3,3 +3,5 @@ FROM artalk/artalk-go
 
 ADD https://github.com/lionsoul2014/ip2region/raw/master/data/ip2region.xdb /data/
 COPY conf.yml /conf.yml
+
+COPY upgit /usr/local/bin/upgit
