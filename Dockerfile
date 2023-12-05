@@ -6,3 +6,4 @@ COPY conf.yml /conf.yml
 
 COPY upgit ./upgit
 COPY config.toml /etc/upgit/config.toml
+RUN chmod +x ./upgit
