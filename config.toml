@@ -33,9 +33,9 @@ rename = "{year}/{month}/upgit_{year}{month}{day}_{unix_ts}{ext}"
 # -----------------------------------------------------------------------------
 
 # 如果您的网络访问Github异常或者缓慢，您可以尝试下面的配置以开启CDN加速
-# [replacements]
-# "raw.githubusercontent.com" = "cdn.jsdelivr.net/gh"
-# "/master" = "@master"
+[replacements]
+"raw.githubusercontent.com" = "cdn.jsdelivr.net/gh"
+"/main" = "@main"
 
 # =============================================================================
 # 以下为各个上传器的配置示例. 用不到的留空即可
@@ -48,12 +48,12 @@ branch = "main"
 
 # 您的拥有"repo"权限的 Github 令牌
 # 获取Github Token连接: https://github.com/settings/tokens
-pat = "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"
+pat = "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"
 
 # 您的公共Github存储库的名称
 # 注意: 为了让您和他人可以访问到图片资源, 您的Github仓库一定要是公开的, 
 #       在私有仓库中Github会拦截未授权的请求,你将会得到一个404.
-repo = "blog_img"
+repo = "test"
 
 # 您的 Gtihub 用户名 
 username = "LLLLLUOTJ"
