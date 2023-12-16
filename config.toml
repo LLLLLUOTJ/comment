@@ -48,7 +48,7 @@ branch = "main"
 
 # 您的拥有"repo"权限的 Github 令牌
 # 获取Github Token连接: https://github.com/settings/tokens
-pat = "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"
+pat = "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"
 
 # 您的公共Github存储库的名称
 # 注意: 为了让您和他人可以访问到图片资源, 您的Github仓库一定要是公开的, 

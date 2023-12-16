@@ -1,0 +1,25 @@
+2023-12-16 15:34:58.163683 +0800 CST m=+0.001670293[INFO ] Started
+2023-12-16 15:34:58.170422 +0800 CST m=+0.008409085[ERROR] abort: failed: no image in clipboard or unsupported format
+goroutine 1 [running]:
+runtime/debug.Stack()
+	/Users/runner/hostedtoolcache/go/1.18.0-beta1/x64/src/runtime/debug/stack.go:24 +0x68
+github.com/pluveto/upgit/lib/xlog.Verbose.Log({0xe8?, 0xdc?, {0x140000d4210?, 0x10?}, 0x140000da2c0?}, {0x104ddc774, 0x8}, {0x140000da300?, 0x104dd93d4?}, {0x0?, ...})
+	/Users/runner/work/upgit/upgit/lib/xlog/verbose.go:55 +0xf8
+github.com/pluveto/upgit/lib/xlog.Verbose.Error(...)
+	/Users/runner/work/upgit/upgit/lib/xlog/verbose.go:44
+github.com/pluveto/upgit/lib/xlog.AbortErr({0x104ee66d8?, 0x14000099120?})
+	/Users/runner/work/upgit/upgit/lib/xlog/verbose.go:93 +0xe8
+main.handleClipboard()
+	/Users/runner/work/upgit/upgit/main.go:390 +0x1f8
+main.mainCommand()
+	/Users/runner/work/upgit/upgit/main.go:59 +0x9c
+main.main()
+	/Users/runner/work/upgit/upgit/main.go:45 +0xb8
+2023-12-16 15:35:09.684014 +0800 CST m=+0.000412667[INFO ] Started
+2023-12-16 15:35:09.688831 +0800 CST m=+0.005229251[INFO ] uploader: github
+2023-12-16 15:35:09.689088 +0800 CST m=+0.005486459[INFO ] uploading #TASK_0 /var/folders/vn/cpxmwmr52r95bvwt6zg9_3gm0000gn/T//upgit_tmp_1702712109684277.png
+2023-12-16 15:35:10.344912 +0800 CST m=+0.661306626[INFO ] failed to upload #TASK_0 /var/folders/vn/cpxmwmr52r95bvwt6zg9_3gm0000gn/T//upgit_tmp_1702712109684277.png : unexpected status code 401. response: {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+2023-12-16 15:37:23.793609 +0800 CST m=+0.001015710[INFO ] Started
+2023-12-16 15:37:23.798186 +0800 CST m=+0.005592418[INFO ] uploader: github
+2023-12-16 15:37:23.798335 +0800 CST m=+0.005741710[INFO ] uploading #TASK_0 /var/folders/vn/cpxmwmr52r95bvwt6zg9_3gm0000gn/T//upgit_tmp_1702712243793883.png
+2023-12-16 15:37:24.596577 +0800 CST m=+0.803976460[INFO ] failed to upload #TASK_0 /var/folders/vn/cpxmwmr52r95bvwt6zg9_3gm0000gn/T//upgit_tmp_1702712243793883.png : unexpected status code 401. response: {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
