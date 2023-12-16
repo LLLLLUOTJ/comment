@@ -48,12 +48,12 @@ branch = "main"
 
 # 您的拥有"repo"权限的 Github 令牌
 # 获取Github Token连接: https://github.com/settings/tokens
-pat = "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"
+pat = "ghp_xxxxxxxxxxxxxxxxx"
 
 # 您的公共Github存储库的名称
 # 注意: 为了让您和他人可以访问到图片资源, 您的Github仓库一定要是公开的, 
 #       在私有仓库中Github会拦截未授权的请求,你将会得到一个404.
-repo = "upgit_img"
+repo = "repo-name"
 
 # 您的 Gtihub 用户名 
 username = "LLLLLUOTJ"
@@ -88,10 +88,10 @@ prefix = "https://cdn.mydomain.com/"
 
 # Gitee
 [uploaders.gitee]
-username = "username"
-repo = "repo-name"
+username = "LLLLLUO"
+repo = "blog_img"
 # https://gitee.com/profile/personal_access_tokens/new
-access_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+access_token = "e4927063a81b0a69a4b02fa7c5891c70"
 
 [uploaders.cloudinary]
 cloud_name = "my_cloud"
